@@ -17,23 +17,22 @@
   <body>
     
 
-
-    <nav class="navbar navbar-expand-lg fixed-top ">
+    <nav class="navbar navbar-expand-lg fixed-top " id="nav">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span ><i class="fas fa-home"></i></span>
         </button>
-        <a class="navbar-brand" href="#">دار السلام</a>
+        <a class="navbar-brand" href="index.html">دار السلام</a>
       
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index1.html">الصور <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="index2.html">الفيديوهات</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link " href="comunicat" >التواصل</a>
             </li>
           </ul>
           
@@ -41,7 +40,8 @@
       </nav>
 
 
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleCaptions" 
+      class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -65,9 +65,9 @@
                
                 
              
-              <center>
+              <!-- <center>
                 <h6><button type="button" class="btn btn-outline-info">اضغط للمزيد</button></h6>
-              </center>
+              </center> -->
             </div>
           </div>
           <div class="carousel-item">
@@ -87,9 +87,9 @@
                  
                   
                
-                <center>
+                <!-- <center>
                   <h6><button type="button" class="btn btn-outline-info">اضغط للمزيد</button></h6>
-                </center>
+                </center> -->
             </div>
           </div>
           <div class="carousel-item">
@@ -108,9 +108,9 @@
                 </p></center>
                   
                
-                <center>
+                <!-- <center>
                   <h6><button type="button" class="btn btn-outline-info">اضغط للمزيد</button></h6>
-                </center>
+                </center> -->
             </div>
           </div>
         </div>
@@ -171,9 +171,7 @@
            </ul>
           </p>
         </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
+        
       </div>
     </div>
     <div class="col-sm-12 col-md-4">
@@ -190,9 +188,7 @@
             </ul>
           </p>
         </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
+        
       </div>
     </div>
     <div class="col-sm-12 col-md-4">
@@ -209,9 +205,7 @@
             </ul>
            </p>
         </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
+       
       </div>
     </div>
   </div>
@@ -220,9 +214,11 @@
 
 </div>
 
-  <p class="button">
-    <button type="button" class="btn btn-warning">اضغط للمزيد</button>
-  </p>
+  <a href="index3.html">
+    <p class="button">
+      <button type="button" class="btn btn-danger">اضغط للمزيد</button>
+    </p>
+  </a>
 </div>
  
 </section>
@@ -338,13 +334,16 @@
 
 </section>
 
-<section class="communicate">
+<section id="comunicat" class="communicate" >
 
   <div class="container">
     <div>
       <h1>
         للتواصل مع اصحاب الدار والتبرع
       </h1>
+      <p>
+        قال تعالى :  يَا أَيُّهَا الَّذِينَ آَمَنُوا أَنْفِقُوا مِمَّا رَزَقْنَاكُمْ مِنْ قَبْلِ أَنْ يَأْتِيَ يَوْمٌ لا بَيْعٌ فِيهِ وَلا خُلَّةٌ وَلا شَفَاعَةٌ وَالْكَافِرُونَ هُمُ الظَّالِمُونَ  
+      </p>
     </div>
     <div class="row">
       <div class="col-lg-6 col-md-12">
@@ -375,6 +374,55 @@
           </div>
           
           <button type="submit" class="btn btn-outline-dark">ارسال</button>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#staticBackdrop">
+ اضغط هنا للمزيد من التفاصيل 
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">تفاصيل عن كيفية التواصل او التبرع للدار</h5>
+        <h5 class="modal-title" id="staticBackdropLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         
+        </button>
+      </div>
+      <div class="modal-body">
+     <p> اهلا وسهلا بكم في دار رعاية الكبار في السن 
+       دار السلام .
+     ان كانت لديكم حاله او تريدون ان نعتني بااشخاص من ذوي كبار السناو يمكنكم 
+     ار شادنا اليهم والتبرع الى الدار فيمكنكم مراسلتنا على الارقام والايميلات المذكوره 
+     
+     نشكركم على  منحكم ثقتنا فهدفنا هو المساعده والخير لمن 
+     لايملكون القوة لفعل ذلك ... 
+    فهذا المشروع هو من الناس الى الناس وخدمة الناس.
+    </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">اغلاق </button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         </form>
 
 
@@ -402,7 +450,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-12">
-      <h6><i class="fas fa-heart"></i>Marwa Mohammed Jasim </h6>
+      <h6> <img src="image/18.png" alt=""> Code For Iraq </h6>
 
 
       </div>
@@ -421,7 +469,24 @@
 </footer>
  
 
+<script type="text/javascript">
+   	
+  var  nav = document.getElementById('nav');
+  
+  window.onscroll = function(){
 
+    if (window.pageYOffset >100) {
+
+      nav.style.background = "#1a1a2e";
+      nav.style.boxShadow = "0px 4px 2px #1a1a2e "  ;
+    }
+    else{
+      nav.style.background = "transparent";
+      nav.style.boxShadow = "none";
+    }
+  }
+
+</script>
 
 
 

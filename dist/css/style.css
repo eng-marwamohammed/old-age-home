@@ -12,6 +12,7 @@
     text-transform: uppercase;
     font-weight: bold;
 color:#fff;
+text-align: center;
 }
 
 .navbar{
@@ -24,17 +25,14 @@ color:#fff;
 .w-100{
     height: 600px;
 }
+
+
 @media only screen and (max-width:100%){
-    .navbar-nav{
-        background: red;
-        color:#fff;
+    .navbar-nav , .nav-item{
+       background-color: #DA4453;
+       text-align: center;
     }
-    .navbar-toggler{
-        padding: 1px 5px;
-        font-size: 18px;
-        line-height: 0.3;
-        background: #eee;
-    }
+    
 }
 
 .navbar-nav{
@@ -49,10 +47,26 @@ color:#fff;
  font-family: 'thuluth-decorated';
 }
 
+nav i{
+  color: #2980b9; 
+    border: 3px solid #2980b9;
+    padding: 6px;
+    background-color: #ffffff;
+}
+nav .nav-link:hover{
+    /* color: #DA4453;
+    border-bottom: 3px solid #fbc531; */
+    background-color: #e94560;
+    color: black;
+    transition: .8s;
+    border-radius: 10px;
+}
+
+
 
 /* slider */
 .carousel-item{
-    height: 500px;
+    height: 600px;
     min-height: 300px;
     background: no-repeat center center scroll;
     -webkit-backgrond-size:cover;
@@ -70,7 +84,7 @@ color:#fff;
    letter-spacing: 2px;
     font-size:40px;
    font-weight: 600;
-   background-color:#0097e6;;
+   background-color:#16213e;
    width: 25%;
    margin-top: 50px;
    border-radius: 25px;
@@ -82,14 +96,11 @@ color:#fff;
     margin:auto;
     font-size: 45px;
     font-weight: 400;
-    /* background-color: #3498db ; 
-    box-shadow: 2px 3px 6px 1px  black; */
-    text-shadow: 3px 4px 6px 2px black;
     width:50%;
     margin-top: 20px;
     border-radius: 25px;
     text-align: center;
-    background-color:#0097e6;;
+    background-color:#16213e;
 }
 
 .btn{
@@ -106,15 +117,23 @@ header{
 }
 header h1{
 text-align: justify;
+font-family:  'diwanltr';
+font-size: 30px;
+font-weight: 600;
+color: #0f3460;
+
 }
 
 header p{
     text-align: justify; 
+    font-family:  'diwanltr';
+    font-size: 20px;
+    font-weight: 550;
 }
 
 
 header img{
-    height: 60%;
+    height: 70%;
     width: 70%;
 }
 
@@ -143,19 +162,22 @@ padding-bottom: 40px;
 
 .info h5,p{
     text-align: justify;
-    
+    font-family:  'diwanltr';
+    font-size: 20px;
+    font-weight: 500;
 }
 
 
 .info .card{
-    box-shadow: 5px 5px 5px 6px;
+    box-shadow: 5px 5px 5px 6px #1a1a2e;
     margin-right: 50px;
     border-radius: 20px;
 }
 
 .info .card:hover{
-    background-color: #fbc531;
+    background-color: #16213e;
     color: #ffffff;
+    transition: 0.5s;
 }
 
 .info img{
@@ -173,12 +195,10 @@ padding-bottom: 40px;
 
 .info .button{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 80px; 
 }
 
-.info button:hover{
-    color: #ffffff;
-}
+
 
 
 /* team */
@@ -193,6 +213,7 @@ padding-bottom: 40px;
  text-align: center;
  font-family:  'diwanltr';
  font-size: 60px;
+ color: #0f3460;
 }
 
 .team .card-img-top{
@@ -202,16 +223,18 @@ border-radius: 10px;
 }
 
 .team .card{
-    background-color: #0097e6;
+    background-color: #e94560;
     color: #ffffff;
 }
 
 .team h5,p{
     text-align: justify;
+    font-family:  'diwanltr';
+    font-size: 20px;
 }
 
 .team a{
-    color: #ffffff;
+    color: #1a1a2e;
     font-size: 30px;
 
 }
@@ -225,18 +248,18 @@ border-radius: 10px;
 }
 .team-small p{
    text-align: center;
-   
+   color: #16213e;
 }
 
 .team-small a{
-    color: black;
+    color: #16213e;
 }
 
 
 /* codeforiraq */
 
 .codeforiraq{
-background-color: #00a8ff;
+background-color: #0f3460;
 padding-bottom: 30px;
 padding-top: 10px;
 }
@@ -258,6 +281,7 @@ padding-top: 10px;
 .codeforiraq p{
     text-align: justify;
     font-weight: 600;
+    color: #ffffff;
 }
 
 /* communicate */
@@ -265,7 +289,7 @@ padding-top: 10px;
 .communicate{
     padding-bottom: 60px;
     padding-top:40px;
- 
+    
 }
 
 .communicate h1{
@@ -273,7 +297,47 @@ padding-top: 10px;
     padding-bottom: 30px;
     font-family:  'diwanltr';
     font-weight: 550;
+    color: #0f3460;
 }
+.communicate p{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family:  'diwanltr';
+    font-weight: 550;
+    color: #0f3460;
+}
+.modal{
+    background-color: #0f3460;
+   opacity: 0.9;
+   transition: .3s;
+}
+.modal-content{
+    border: 5px solid #ffffff;
+    transition: .3s;
+}
+.modal h5{
+    font-family:  'diwanltr';
+    font-weight: 500;
+    font-size: 30px;
+    transition: .3s;
+}
+.modal-body p{
+    text-align: justify;
+    font-family:  'diwanltr';
+    font-weight: 500;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.modal-body ,.modal-header{
+    background-color: #DA4453;
+    transition: .3s;
+}
+.modal-footer{
+    background-color: #0f3460;
+    transition: .3s;
+}
+
 
 .communicate .form-group{
     text-align: justify;
@@ -308,9 +372,9 @@ padding-top: 10px;
 /* desgin */
 
 .desgin{
-    padding-top: 5px;
-    background-color: black;
-    
+    padding-top: 10px;
+    background-color:  #1a1a2e;
+    padding-bottom: 10px;
 }
 .desgin h6{
     text-align: center;
@@ -323,9 +387,62 @@ padding-top: 10px;
     color: #ffffff;
 }
 .desgin i{
-    color: red;
+    padding-top: 15px;
+    color: #ffffff;
     margin-left: 4px;
 }
+.desgin img{
+    width: 50px;
+    height: 50px;
+    margin-right: 3px;
+}
+/* photo-home  */
+
+.photo-home{
+    background: #DA4453;  
+    background: -webkit-linear-gradient(to right, #34495e 25%, #2980b9 50%,#3498db);  
+    background: linear-gradient(to right, #34495e 25%, #2980b9 50%,#3498db); 
+    
+}
+
+.photo h1{
+    margin-top: 80px;
+    text-align: center;
+    font-family:  'diwanltr';
+    color: #ffffff;
+}
+
+/* video */
+.video-home {
+    background: #DA4453;  
+    background: -webkit-linear-gradient(to right, #34495e 25%, #2980b9 50%,#3498db);  
+    background: linear-gradient(to right, #34495e 25%, #2980b9 50%,#3498db); 
+    
+}
+.video{
+    justify-items: center;
+}
+.video h1{
+    text-align: center;
+    font-family:  'diwanltr';
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: #ffffff;
+   
+}
+
+/* information */
 
 
+.information h1{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family:  'diwanltr';
+    color: #ffffff;
+}
 
+.information h5,li{
+    text-align: justify;
+    list-style-type: none;
+}
