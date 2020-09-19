@@ -1,9 +1,13 @@
+
 *{
     margin: opx;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
 }
-
+body{
+    font-family: 'Cairo', sans-serif;
+}
 
 /* nav */
 .nav-link {
@@ -79,7 +83,7 @@ nav .nav-link:hover{
 
 
 .carousel-item h5{
-   font-family: 'Markazi Text', serif;
+    font-family: 'Cairo', sans-serif;
    text-transform: uppercase;
    letter-spacing: 2px;
     font-size:40px;
@@ -88,11 +92,11 @@ nav .nav-link:hover{
    width: 25%;
    margin-top: 50px;
    border-radius: 25px;
-  
+   padding-bottom: 4px;
 }
 
 .carousel-item p{
-    font-family: 'Markazi Text', serif;
+    font-family: 'Cairo', sans-serif;
     margin:auto;
     font-size: 45px;
     font-weight: 400;
@@ -101,6 +105,7 @@ nav .nav-link:hover{
     border-radius: 25px;
     text-align: center;
     background-color:#16213e;
+    padding-bottom: 4px;
 }
 
 .btn{
@@ -117,7 +122,7 @@ header{
 }
 header h1{
 text-align: justify;
-font-family:  'diwanltr';
+font-family: 'Cairo', sans-serif;
 font-size: 30px;
 font-weight: 600;
 color: #0f3460;
@@ -126,7 +131,7 @@ color: #0f3460;
 
 header p{
     text-align: justify; 
-    font-family:  'diwanltr';
+    font-family: 'Cairo', sans-serif;
     font-size: 20px;
     font-weight: 550;
 }
@@ -155,14 +160,14 @@ max-width: 70%;
 text-align: center;
 font-weight: 700;
 font-size: 30px;
-font-family:  'diwanltr';
+font-family: 'Cairo', sans-serif;
 color: #ffffff;
 padding-bottom: 40px;
 }
 
 .info h5,p{
     text-align: justify;
-    font-family:  'diwanltr';
+    font-family: 'Cairo', sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
@@ -211,7 +216,8 @@ padding-bottom: 40px;
 .team h6{
  padding-bottom: 40px;
  text-align: center;
- font-family:  'diwanltr';
+ /* font-family:  'diwanltr'; */
+ font-family: 'Cairo', sans-serif;
  font-size: 60px;
  color: #0f3460;
 }
@@ -229,8 +235,9 @@ border-radius: 10px;
 
 .team h5,p{
     text-align: justify;
-    font-family:  'diwanltr';
+    font-family: 'Cairo', sans-serif;
     font-size: 20px;
+    text-align: center;
 }
 
 .team a{
@@ -295,14 +302,14 @@ padding-top: 10px;
 .communicate h1{
     text-align: center;
     padding-bottom: 30px;
-    font-family:  'diwanltr';
+    font-family: 'Cairo', sans-serif;
     font-weight: 550;
     color: #0f3460;
 }
 .communicate p{
     text-align: center;
     padding-bottom: 30px;
-    font-family:  'diwanltr';
+    font-family: 'Cairo', sans-serif;
     font-weight: 550;
     color: #0f3460;
 }
@@ -316,14 +323,14 @@ padding-top: 10px;
     transition: .3s;
 }
 .modal h5{
-    font-family:  'diwanltr';
+    font-family: 'Cairo', sans-serif;
     font-weight: 500;
     font-size: 30px;
     transition: .3s;
 }
 .modal-body p{
     text-align: justify;
-    font-family:  'diwanltr';
+    font-family: 'Cairo', sans-serif;
     font-weight: 500;
     color: #ffffff;
     transition: .3s;
@@ -341,7 +348,7 @@ padding-top: 10px;
 
 .communicate .form-group{
     text-align: justify;
-    font-family:  'diwanltr';
+    font-family: 'Cairo', sans-serif;
     font-weight: 550;
     font-size: 18px;
 }
@@ -354,7 +361,7 @@ padding-top: 10px;
 .communicate li{
     padding-top: 30px;
     text-align: justify;
-    font-family:  'diwanltr';
+    font-family: 'Cairo', sans-serif;
     font-weight: 600;
     font-size: 18px;
     
@@ -389,12 +396,14 @@ padding-top: 10px;
 .desgin i{
     padding-top: 15px;
     color: #ffffff;
-    margin-left: 4px;
+    margin-left: 8px;
+  
 }
 .desgin img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin-right: 3px;
+    padding-left: 8px;
 }
 /* photo-home  */
 
@@ -408,7 +417,7 @@ padding-top: 10px;
 .photo h1{
     margin-top: 80px;
     text-align: center;
-    font-family:  'diwanltr';
+    font-family: 'Cairo', sans-serif;
     color: #ffffff;
 }
 
@@ -419,12 +428,12 @@ padding-top: 10px;
     background: linear-gradient(to right, #34495e 25%, #2980b9 50%,#3498db); 
     
 }
-.video{
-    justify-items: center;
+video{
+    margin: 8px;
 }
 .video h1{
     text-align: center;
-    font-family:  'diwanltr';
+    font-family: 'Cairo', sans-serif;
     margin-top: 80px;
     margin-bottom: 40px;
     color: #ffffff;
@@ -438,7 +447,7 @@ padding-top: 10px;
     margin-top: 80px;
     margin-bottom: 30px;
     text-align: center;
-    font-family:  'diwanltr';
+    font-family: 'Cairo', sans-serif;
     color: #ffffff;
 }
 
